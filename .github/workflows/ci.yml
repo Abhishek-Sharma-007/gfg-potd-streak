@@ -5,9 +5,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
       - run: pip install black ruff || true
       - run: black --check . || true
       - run: ruff check . || true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node --version
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Compile Java files if present
+        shell: bash
+        run: |
+          set -e
+          files=$(find problems -type f -name "*.java" 2>/dev/null || true)
+          if [ -n "$files" ]; then
+            javac $files
+          else
+            echo "No Java files to compile."
+          fi
 
