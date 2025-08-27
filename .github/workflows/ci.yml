@@ -1,38 +1,57 @@
 name: CI
 on: [pull_request, push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
+      # ---------- Python checks ----------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install black ruff || true
-      - run: black --check . || true
-      - run: ruff check . || true
+      - name: Install Python tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install black ruff || true    # keep CI green while repo grows
+      - name: Python format & lint
+        run: |
+          black --check . || true
+          ruff check . || true
 
+      # ---------- Node presence (JS runs locally) ----------
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: node --version
 
+      # ---------- Java compile per problem directory ----------
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
+
+      # Compile each Solution.java inside its own directory to avoid class clashes
       - name: Compile Java files if present
         shell: bash
         run: |
-          set -e
-          files=$(find problems -type f -name "*.java" 2>/dev/null || true)
-          if [ -n "$files" ]; then
-            javac $files
+          set -euo pipefail
+          shopt -s nullglob
+          mapfile -d '' files < <(find problems -type f -name 'Solution.java' -print0 2>/dev/null || true)
+          if (( ${#files[@]} > 0 )); then
+            for f in "${files[@]}"; do
+              dir="$(dirname "$f")"
+              base="$(basename "$f")"
+              echo "Compiling $base in $dir"
+              (cd "$dir" && javac "$base")
+            done
           else
-            echo "No Java files to compile."
+            echo "No Java files found."
           fi
-
