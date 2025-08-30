@@ -22,9 +22,10 @@ Daily POTD solutions in Python, Java, and JavaScript. Each entry contains a shor
 
 | Date       | Problem                                   | Folder Path                                                  |
 |------------|--------------------------------------------|--------------------------------------------------------------|
+| 2025-08-29 | Smallest window containing all characters   | problems/2025/08-29/smallest-window-containing-all-characters/ |
+| 2025-08-28 | Maximize Number of 1's                     | problems/2025/08-28/maximize-number-of-1s/                 |
 | 2025-08-27 | Count the number of possible triangles     | problems/2025/08-27/count-possible-triangles/                |
 | 2025-08-26 | Check if a String is Subsequence of Other  | problems/2025/08-26/check-if-a-string-is-subsequence-of-other/ |
-| 2025-08-28 | Maximize Number of 1's                     | problems/2025/08-28/maximize-number-of-1s/                 |
 
 
-This table is appended by the scaffold script; you can tidy/reshuffle as needed.| 2025-08-28 | maximize /number /of /1s | problems/2025/08-28/maximize-number-of-1s/ |
+This table is appended by the scaffold script; you can tidy/reshuffle as needed.
