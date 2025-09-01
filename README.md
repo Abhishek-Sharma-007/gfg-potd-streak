@@ -22,6 +22,7 @@ Daily POTD solutions in Python, Java, and JavaScript. Each entry contains a shor
 
 | Date       | Problem                                   | Folder Path                                                  |
 |------------|--------------------------------------------|--------------------------------------------------------------|
+| 2025-09-01 | Sum of Mode                                | problems/2025/09-01/sum-of-mode/                             |
 | 2025-08-31 | Container With Most Water                  | problems/2025/08-31/container-with-most-water/              |
 | 2025-08-30 | The Celebrity Problem                      | problems/2025/08-30/the-celebrity-problem/                  |
 | 2025-08-29 | Smallest window containing all characters   | problems/2025/08-29/smallest-window-containing-all-characters/ |
