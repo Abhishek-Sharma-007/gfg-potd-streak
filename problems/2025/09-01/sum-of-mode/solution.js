@@ -84,7 +84,7 @@ function sumOfModes(arr, k) {
     total += currentModeValue();
   }
 
-  return total | 0; // int-like
+  return total;
 }
 
 // quick checks
