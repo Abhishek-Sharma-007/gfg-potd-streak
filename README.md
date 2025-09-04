@@ -22,6 +22,7 @@ Daily POTD solutions in Python, Java, and JavaScript. Each entry contains a shor
 
 | Date       | Problem                                   | Folder Path                                                  |
 |------------|--------------------------------------------|--------------------------------------------------------------|
+| 2025-09-04 | Linked List Group Reverse                   | problems/2025/09-04/linked-list-group-reverse/              |
 | 2025-09-03 | Reverse a Doubly Linked List               | problems/2025/09-03/reverse-a-doubly-linked-list/           |
 | 2025-09-02 | Swap Kth nodes from ends                   | problems/2025/09-02/swap-kth-nodes-from-ends/               |
 | 2025-09-01 | Sum of Mode                                | problems/2025/09-01/sum-of-mode/                             |
