@@ -22,6 +22,7 @@ Daily POTD solutions in Python, Java, and JavaScript. Each entry contains a shor
 
 | Date       | Problem                                   | Folder Path                                                  |
 |------------|--------------------------------------------|--------------------------------------------------------------|
+| 2025-09-06 | Find length of Loop                         | problems/2025/09-06/find-length-of-loop/                    |
 | 2025-09-05 | Segregate Even and Odd Nodes               | problems/2025/09-05/segregate-even-and-odd-nodes/           |
 | 2025-09-04 | Linked List Group Reverse                   | problems/2025/09-04/linked-list-group-reverse/              |
 | 2025-09-03 | Reverse a Doubly Linked List               | problems/2025/09-03/reverse-a-doubly-linked-list/           |
