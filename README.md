@@ -22,6 +22,7 @@ Daily POTD solutions in Python, Java, and JavaScript. Each entry contains a shor
 
 | Date       | Problem                                   | Folder Path                                                  |
 |------------|--------------------------------------------|--------------------------------------------------------------|
+| 2025-09-09 | Assign Mice Holes                           | problems/2025/09-09/assign-mice-holes/                      |
 | 2025-09-08 | Merge Sort for Linked List                  | problems/2025/09-08/merge-sort-for-linked-list/             |
 | 2025-09-07 | Merge K Sorted Linked Lists                 | problems/2025/09-07/merge-k-sorted-linked-lists/            |
 | 2025-09-06 | Find length of Loop                         | problems/2025/09-06/find-length-of-loop/                    |
