@@ -19,3 +19,11 @@ This approach is preferred for linked lists because splitting and merging can be
 ## Complexity
 - Time: `O(n log n)` — recurrence `T(n) = 2T(n/2) + O(n)`.
 - Space: `O(log n)` recursion depth (pointer rearrangements are in-place).
+
+## Key terms & data structures
+- **Slow/fast pointers**: find middle in one pass.
+- **Merge procedure**: linear-time interleaving using a dummy head and tail.
+
+## Language notes
+- **Python/JS**: ensure to cut the list at mid (`midPrev.next = None`) before recursive calls.
+- **Java**: avoid extra allocations; manage recursion carefully for large lists.

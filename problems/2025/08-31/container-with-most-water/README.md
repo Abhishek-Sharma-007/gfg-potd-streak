@@ -15,4 +15,13 @@ Time: O(n), Space: O(1)
 - `[3,1,2,4,5]` → `12`
 - `[2,1,8,6,4,6,5,5]` → `25`
 
+## Key terms & data structures
+- **Two pointers**: optimal when a monotonic move is justified by a proof.
+- **Greedy move**: discard the shorter line, since only a taller line can improve area.
+
+## Language notes
+- **Python**: integers are unbounded; careful with indexing.
+- **Java**: use `int` for heights and indices; area may fit in `int` given constraints.
+- **JavaScript**: numbers are double-precision; safe for these ranges.
+
 

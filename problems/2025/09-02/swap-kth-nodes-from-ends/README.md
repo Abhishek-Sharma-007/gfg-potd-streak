@@ -26,3 +26,11 @@ Some problems restrict modifying node data. Swapping links preserves node identi
 ## Complexity
 - Time: `O(n)` — one pass to get `n`, one pass to locate nodes, constant rewiring.
 - Space: `O(1)` — just a few pointers.
+
+## Key terms & data structures
+- **Singly linked list**: nodes with `data` and `next` pointer.
+- **Predecessor pointers**: `prev1`, `prev2` for safe rewiring.
+
+## Language notes
+- **Python/JS**: careful when nodes are head; update `head` reference after rewiring.
+- **Java**: handle `head` replacement by returning the new head from the function.

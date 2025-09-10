@@ -23,3 +23,11 @@ This runs in linear time with constant space.
 ## Complexity
 - Time: `O(n)` — each pointer advances linearly.
 - Space: `O(1)` — no extra data structures.
+
+## Key terms & data structures
+- **Floyd's Tortoise and Hare**: two-pointer cycle detection.
+- **Cycle length**: steps to return to meeting node.
+
+## Language notes
+- **Python/JS**: watch for `None`/`null` checks in the fast pointer condition.
+- **Java**: check `fast != null && fast.next != null` to avoid `NullPointerException`.

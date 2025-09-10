@@ -21,3 +21,11 @@ Because the problem requires reversing even the final short group, we do not ski
 - Time: `O(n)` — each node is visited and re-linked once.
 - Space: `O(1)` — uses a few pointers.
 
+## Key terms & data structures
+- **Dummy node**: sentinel that simplifies head/tail rewiring.
+- **Sublist reversal**: reverse `k` nodes by iterative pointer flipping.
+
+## Language notes
+- **Python/JS**: keep references `last_node_of_prev_part` and `last_node_of_sublist` to do reconnections.
+- **Java**: careful with variable scoping and returning `dummy.next` as new head.
+

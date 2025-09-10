@@ -18,3 +18,12 @@ Intuition: Sorting aligns mice and holes to avoid unnecessary long crossings, a 
 ## Complexity
 - Time: `O(n log n)` due to sorting.
 - Space: `O(1)` extra (ignoring sort's internal space).
+
+## Key terms & data structures
+- **Greedy matching**: pair sorted sequences by index to minimize maximum difference.
+- **Max absolute difference**: objective function to minimize under constraints.
+
+## Language notes
+- **Python**: `mices.sort(); holes.sort()` then `max(abs(a-b) for a,b in zip(...))`.
+- **Java**: `Arrays.sort`; use `Math.abs` and track maximum.
+- **JavaScript**: `sort((a,b)=>a-b)` for numeric sort; iterate with a single pass.

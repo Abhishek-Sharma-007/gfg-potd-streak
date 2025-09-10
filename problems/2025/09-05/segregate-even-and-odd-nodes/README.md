@@ -21,3 +21,11 @@ This preserves the original relative order within the even and odd groups.
 ## Complexity
 - Time: `O(n)` — single pass over all nodes.
 - Space: `O(1)` — only a few pointer variables.
+
+## Key terms & data structures
+- **Stable partition**: preserves relative order within groups.
+- **Tail pointer**: efficient append to linked-list chain.
+
+## Language notes
+- **Python/JS**: remember to nullify `next` when moving nodes between chains to avoid accidental cycles.
+- **Java**: manage `evenHead/evenTail/oddHead/oddTail` carefully and return `evenHead != null ? evenHead : oddHead`.

@@ -26,3 +26,12 @@ We implement the min-heap approach in Python/JavaScript/Java for clarity and per
 ## Complexity
 - Time: `O(N log k)`
 - Space: `O(k)` for the heap
+
+## Key terms & data structures
+- **Min-heap/PriorityQueue**: retrieve minimum head among `k` lists in `O(log k)`.
+- **Dummy head**: simplifies tail appending during merge.
+
+## Language notes
+- **Python**: `heapq` with tuples `(value, tieBreaker, node)` to avoid comparing nodes.
+- **Java**: `PriorityQueue<Node>` with comparator `n -> n.data`.
+- **JavaScript**: implement a binary heap; compare by `.data`.

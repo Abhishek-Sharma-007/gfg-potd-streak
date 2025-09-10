@@ -21,4 +21,14 @@ Each step updates two values (outgoing and incoming) in `O(log m)` where `m` is 
 
 Time: `O(n log k)`. Space: `O(k)`.
 
+## Key terms & data structures
+- **Mode with tie-break**: max frequency, smallest value on ties.
+- **Lazy heap deletion**: ignore stale heap entries whose frequency no longer matches `cnt`.
+- **Ordered set** (Java): keeps pairs ordered for `O(log k)` updates and `O(1)` mode.
+
+## Language notes
+- **Python**: `heapq` is a min-heap; push `(-freq, value)` and validate top with `cnt`.
+- **Java**: `TreeSet` with custom `Comparable` node; remove-before-update pattern to maintain order.
+- **JavaScript**: implement a binary heap with `[-freq, value]` pairs and lazy deletion.
+
 

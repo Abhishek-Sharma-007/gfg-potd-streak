@@ -25,3 +25,11 @@ This correctly reverses all links in-place and runs in linear time.
 ## Complexity
 - Time: `O(n)` — touch each node once.
 - Space: `O(1)` — constant extra pointers.
+
+## Key terms & data structures
+- **Doubly linked list**: nodes have `prev` and `next` pointers.
+- **In-place reversal**: rewire links without creating new nodes.
+
+## Language notes
+- **Python/JS**: ensure class `Node` has both `prev` and `next`; take care to not lose references while swapping.
+- **Java**: update references carefully; after traversal `temp.prev` is the new head.

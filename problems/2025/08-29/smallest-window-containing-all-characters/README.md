@@ -15,4 +15,13 @@ Time: O(n) where n = |s|; Space: O(1) for fixed alphabet (26 lowercase letters).
 - s = "zoomlazapzo", p = "oza" → "apzo"
 - s = "zoom", p = "zooe" → ""
 
+## Key terms & data structures
+- **Frequency map**: count of needed vs present characters.
+- **Sliding window invariants**: window valid iff all required counts satisfied.
+
+## Language notes
+- **Python**: `collections.Counter` is handy; but a fixed-size array of 26 is fastest.
+- **Java**: `int[26]` or `int[128]` for ASCII; be careful with char indexing.
+- **JavaScript**: use an object/Map for counts; precompute need counts.
+
 

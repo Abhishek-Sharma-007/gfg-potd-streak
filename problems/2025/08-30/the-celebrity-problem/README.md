@@ -17,4 +17,13 @@ Time: O(n) for elimination + O(n) for verification → O(n)
 - `[[1,1],[1,1]]` → `-1`
 - `[[1]]` → `0`
 
+## Key terms & data structures
+- **Directed graph**: adjacency matrix of "knows" relation.
+- **Candidate elimination**: two-pointer pass narrows possible celebrity to one.
+
+## Language notes
+- **Python**: matrix as `List[List[int]]`; nested loops for verification.
+- **Java**: index into `int[][]`; avoid autoboxing overhead.
+- **JavaScript**: arrays of arrays; strict equality checks.
+
 
