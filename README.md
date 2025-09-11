@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-11 | [Minimum Jumps](problems/2025/09-11/minimum-jumps/README.md) | problems/2025/09-11/minimum-jumps/ |
 | 2025-09-10 | [Largest number in one swap](problems/2025/09-10/largest-number-in-one-swap/README.md) | problems/2025/09-10/largest-number-in-one-swap/ |
 | 2025-09-09 | [Assign Mice Holes](problems/2025/09-09/assign-mice-holes/README.md) | problems/2025/09-09/assign-mice-holes/ |
 | 2025-09-08 | [Merge Sort for Linked List](problems/2025/09-08/merge-sort-for-linked-list/README.md) | problems/2025/09-08/merge-sort-for-linked-list/ |
