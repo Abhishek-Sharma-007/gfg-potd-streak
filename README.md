@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-13 | [Minimum Cost to cut a board into squares](problems/2025/09-13/minimum-cost-to-cut-a-board-into-squares/README.md) | problems/2025/09-13/minimum-cost-to-cut-a-board-into-squares/ |
 | 2025-09-12 | [Minimize the Heights II](problems/2025/09-12/minimize-the-heights-ii/README.md) | problems/2025/09-12/minimize-the-heights-ii/ |
 | 2025-09-11 | [Minimum Jumps](problems/2025/09-11/minimum-jumps/README.md) | problems/2025/09-11/minimum-jumps/ |
 | 2025-09-10 | [Largest number in one swap](problems/2025/09-10/largest-number-in-one-swap/README.md) | problems/2025/09-10/largest-number-in-one-swap/ |
