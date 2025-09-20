@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-20 | [Longest Subarray Length](problems/2025/09-20/longest-subarray-length/README.md) | problems/2025/09-20/longest-subarray-length/ |
 | 2025-09-19 | [Min Add to Make Parentheses Valid](problems/2025/09-19/min-add-to-make-parentheses-valid/README.md) | problems/2025/09-19/min-add-to-make-parentheses-valid/ |
 | 2025-09-18 | [Next Greater Element in Circular Array](problems/2025/09-18/next-greater-element-circular/README.md) | problems/2025/09-18/next-greater-element-circular/ |
 | 2025-09-16 | [Postfix Evaluation](problems/2025/09-16/postfix-evaluation/README.md) | problems/2025/09-16/postfix-evaluation/ |
