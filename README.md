@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-22 | [Max of min for every window size](problems/2025/09-22/max-of-min-for-every-window-size/README.md) | problems/2025/09-22/max-of-min-for-every-window-size/ |
 | 2025-09-21 | [Max rectangle](problems/2025/09-21/max-rectangle/README.md) | problems/2025/09-21/max-rectangle/ |
 | 2025-09-20 | [Longest Subarray Length](problems/2025/09-20/longest-subarray-length/README.md) | problems/2025/09-20/longest-subarray-length/ |
 | 2025-09-19 | [Min Add to Make Parentheses Valid](problems/2025/09-19/min-add-to-make-parentheses-valid/README.md) | problems/2025/09-19/min-add-to-make-parentheses-valid/ |
