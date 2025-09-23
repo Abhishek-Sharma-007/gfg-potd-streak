@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-23 | [Queue Reversal](problems/2025/09-23/queue-reversal/README.md) | problems/2025/09-23/queue-reversal/ |
 | 2025-09-22 | [Max of min for every window size](problems/2025/09-22/max-of-min-for-every-window-size/README.md) | problems/2025/09-22/max-of-min-for-every-window-size/ |
 | 2025-09-21 | [Max rectangle](problems/2025/09-21/max-rectangle/README.md) | problems/2025/09-21/max-rectangle/ |
 | 2025-09-20 | [Longest Subarray Length](problems/2025/09-20/longest-subarray-length/README.md) | problems/2025/09-20/longest-subarray-length/ |
