@@ -26,6 +26,8 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-25 | [Generate Binary Numbers](problems/2025/09-25/generate-binary-numbers/README.md) | problems/2025/09-25/generate-binary-numbers/ |
+| 2025-09-24 | [Design MinMax Queue](problems/2025/09-24/design-minmax-queue/README.md) | problems/2025/09-24/design-minmax-queue/ |
 | 2025-09-23 | [Queue Reversal](problems/2025/09-23/queue-reversal/README.md) | problems/2025/09-23/queue-reversal/ |
 | 2025-09-22 | [Max of min for every window size](problems/2025/09-22/max-of-min-for-every-window-size/README.md) | problems/2025/09-22/max-of-min-for-every-window-size/ |
 | 2025-09-21 | [Max rectangle](problems/2025/09-21/max-rectangle/README.md) | problems/2025/09-21/max-rectangle/ |
