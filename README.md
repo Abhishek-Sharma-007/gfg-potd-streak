@@ -26,6 +26,8 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-09-29 | [Longest Bounded-Difference Subarray](problems/2025/09-29/longest-bounded-difference-subarray/README.md) | problems/2025/09-29/longest-bounded-difference-subarray/ |
+| 2025-09-27 | [Minimum K Consecutive Bit Flips](problems/2025/09-27/minimum-k-consecutive-bit-flips/README.md) | problems/2025/09-27/minimum-k-consecutive-bit-flips/ |
 | 2025-09-26 | [Rotate Deque By K](problems/2025/09-26/rotate-deque-by-k/README.md) | problems/2025/09-26/rotate-deque-by-k/ |
 | 2025-09-25 | [Generate Binary Numbers](problems/2025/09-25/generate-binary-numbers/README.md) | problems/2025/09-25/generate-binary-numbers/ |
 | 2025-09-24 | [Design MinMax Queue](problems/2025/09-24/design-minmax-queue/README.md) | problems/2025/09-24/design-minmax-queue/ |
