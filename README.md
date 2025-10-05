@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-10-05 | [Rat in a Maze](problems/2025/10-05/rat-in-a-maze/README.md) | problems/2025/10-05/rat-in-a-maze/ |
 | 2025-10-04 | [Expression Add Operators](problems/2025/10-04/expression-add-operators/README.md) | problems/2025/10-04/expression-add-operators/ |
 | 2025-09-30 | [Generate all binary strings](problems/2025/09-30/generate-all-binary-strings/README.md) | problems/2025/09-30/generate-all-binary-strings/ |
 | 2025-09-29 | [Longest Bounded-Difference Subarray](problems/2025/09-29/longest-bounded-difference-subarray/README.md) | problems/2025/09-29/longest-bounded-difference-subarray/ |
