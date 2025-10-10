@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-10-10 | [ZigZag Tree Traversal](problems/2025/10-10/zigzag-tree-traversal/README.md) | problems/2025/10-10/zigzag-tree-traversal/ |
 | 2025-10-09 | [Postorder Traversal](problems/2025/10-09/postorder-traversal/README.md) | problems/2025/10-09/postorder-traversal/ |
 | 2025-10-07 | [Bottom View of Binary Tree](problems/2025/10-07/bottom-view-of-binary-tree/README.md) | problems/2025/10-07/bottom-view-of-binary-tree/ |
 | 2025-10-05 | [Rat in a Maze](problems/2025/10-05/rat-in-a-maze/README.md) | problems/2025/10-05/rat-in-a-maze/ |
