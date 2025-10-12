@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-10-12 | [Distribute Candies](problems/2025/10-12/distribute-candies/README.md) | problems/2025/10-12/distribute-candies/ |
 | 2025-10-11 | [Maximum Path Sum](problems/2025/10-11/maximum-path-sum/README.md) | problems/2025/10-11/maximum-path-sum/ |
 | 2025-10-10 | [ZigZag Tree Traversal](problems/2025/10-10/zigzag-tree-traversal/README.md) | problems/2025/10-10/zigzag-tree-traversal/ |
 | 2025-10-09 | [Postorder Traversal](problems/2025/10-09/postorder-traversal/README.md) | problems/2025/10-09/postorder-traversal/ |
