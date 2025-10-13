@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-10-13 | [Maximum Non-Adjacent Nodes Sum](problems/2025/10-13/maximum-non-adjacent-nodes-sum/README.md) | problems/2025/10-13/maximum-non-adjacent-nodes-sum/ |
 | 2025-10-12 | [Distribute Candies](problems/2025/10-12/distribute-candies/README.md) | problems/2025/10-12/distribute-candies/ |
 | 2025-10-11 | [Maximum Path Sum](problems/2025/10-11/maximum-path-sum/README.md) | problems/2025/10-11/maximum-path-sum/ |
 | 2025-10-10 | [ZigZag Tree Traversal](problems/2025/10-10/zigzag-tree-traversal/README.md) | problems/2025/10-10/zigzag-tree-traversal/ |
