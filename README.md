@@ -26,6 +26,7 @@ Sharpen DSA skills with daily GeeksforGeeks POTD solutions in Python, Java, and 
 
 | Date       | Problem | Folder Path |
 |------------|---------|-------------|
+| 2025-10-14 | [k-th Smallest in BST](problems/2025/10-14/kth-smallest-in-bst/README.md) | problems/2025/10-14/kth-smallest-in-bst/ |
 | 2025-10-13 | [Maximum Non-Adjacent Nodes Sum](problems/2025/10-13/maximum-non-adjacent-nodes-sum/README.md) | problems/2025/10-13/maximum-non-adjacent-nodes-sum/ |
 | 2025-10-12 | [Distribute Candies](problems/2025/10-12/distribute-candies/README.md) | problems/2025/10-12/distribute-candies/ |
 | 2025-10-11 | [Maximum Path Sum](problems/2025/10-11/maximum-path-sum/README.md) | problems/2025/10-11/maximum-path-sum/ |
